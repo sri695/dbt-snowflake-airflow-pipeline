@@ -1,0 +1,18 @@
+
+target/
+dbt_packages/
+logs/
+# dbt
+target/
+dbt_packages/
+logs/
+
+# python
+__pycache__/
+*.pyc
+
+# airflow
+.env
+
+# secrets
+profiles.yml
